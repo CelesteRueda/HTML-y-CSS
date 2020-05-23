@@ -1,0 +1,47 @@
+/*
+Hoja de Estilo practica11.css
+*/
+
+
+body{
+  background-image: url(imagenes/images.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: grey;
+}
+header{
+    text-align: center;
+    background-image: linear-gradient(rgba(110, 28, 240, 0), white);
+    color: black;
+    border-radius: 15px;
+    border-style: solid; 
+} 
+img{
+    margin: auto;
+    display: block;
+    width: 20%;
+    border-style: solid;
+    box-shadow: 15px 15px 20px black;
+}
+.separador1{
+     height: 15px;
+}
+video:hover, audio, iframe:hover{
+    margin: auto;
+    display: block;
+    transform:scale(0.9);
+    transition: all 0.5s ease;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+.grid video, iframe{
+    border-style: solid;
+    border-color: white;
+    width: 100%;
+}
+

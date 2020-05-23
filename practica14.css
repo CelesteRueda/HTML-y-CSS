@@ -1,0 +1,54 @@
+/*
+Practica 14: Listas ordenadas, listas desordenadas y listas de definicion
+*/
+
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: rebeccapurple;
+}
+section{
+    width: 70%;
+    margin: auto;
+    border: dashed;
+    padding: 15px;
+}
+.listaDesordenada{
+    background-color: aqua;
+}
+.listaOrdenada{
+    background-color: blueviolet;
+}
+ol ol{
+    list-style-type:lower-roman;
+}
+.listaDefinicion{
+    background-color: cornflowerblue;
+}
+td, th{
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+table{
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-image: linear-gradient(to left, blue, white);
+   
+}
+caption{
+    font-style: italic;
+    padding-top: 20px;
+    caption-side: bottom;
+    color: blue;
+}
+th{
+    background-color: black;
+    color: white;
+}

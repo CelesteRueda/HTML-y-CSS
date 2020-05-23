@@ -1,0 +1,54 @@
+/*
+Practica 13: Menus Verticales y Horizontales
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.menuH{
+    overflow: hidden;
+    border: 5px double;
+    border-color: #1c4cea;
+}
+.menuH a {
+    background-color: #2451e6;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    float:left;
+    width: 20%;
+    text-align: center;    
+}
+.menuH a:hover{
+    background-color: #66afe5;
+}
+.menuV{
+    float: left;
+    width: 20%;
+    overflow: hidden;
+    border: 5px double;
+    border-color: #d3b826;
+}
+.menuV a{
+    background-color: #cc872b;
+    color: white;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.menuV a:hover{
+    background-color: #26d3d3;
+}
+img{
+    float: left;
+    width: 70%;
+    border: 5px double;
+    border-color: bisque;
+    box-shadow: 15px 15px 20px #f51cbb;
+}
+img:hover{
+    transform: scale(0.9);
+    transition: all 0.5s linear;
+}

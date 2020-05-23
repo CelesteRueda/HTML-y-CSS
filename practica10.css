@@ -1,0 +1,34 @@
+/* 
+HOJA DE ESTILO practica10.css
+*/
+
+.grid {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px; 
+}
+.grid img{
+    width: 100%;
+    border: 3px solid white;
+    margin: auto;
+}
+*{
+    box-sizing: border-box;
+}
+header, footer{
+    background-image: linear-gradient(#c6f015, white);
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: -10px 10px 20px green;
+}
+body{
+    background-image:  url(imagenes/perritos.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: grey;
+}

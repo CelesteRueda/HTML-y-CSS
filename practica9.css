@@ -1,0 +1,60 @@
+/* 
+Codigo CSS Practica9.css
+*/
+
+*{
+    box-sizing: border-box;
+}
+header,footer{
+    background-image: linear-gradient(white, #00ceff);
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: -15px 15px 10px #e381eb;
+}
+footer{
+    clear:both;
+    padding: 10px;
+}
+.centro{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.separador1{
+    height: 10px;
+    clear: both;
+}
+.separador2{
+    width: 2%;
+    height: 1px;
+    float: left;
+    
+}
+
+.main{
+    height: 1200px;
+}
+img{
+    transition: all 0.5s ease;
+    border-style: solid;
+    border-color: white;
+}
+img:hover{
+    transform: scale(0.9);
+    border-radius: 30px;
+    
+}
+.main img{
+    width: 50%;
+    float:left;
+}
+body{
+    background-image: url(imagenes/perritos.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
